@@ -145,9 +145,30 @@
       </dependency>
 
       <dependency>
+          <groupId>org.elasticsearch.client</groupId>
+          <artifactId>transport</artifactId>
+          <version>7.0.0</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-core -->
+      <dependency>
+          <groupId>org.apache.lucene</groupId>
+          <artifactId>lucene-core</artifactId>
+          <version>7.0.0</version>
+      </dependency>
+
+
+      <dependency>
           <groupId>com.google.protobuf</groupId>
           <artifactId>protobuf-java</artifactId>
           <version>${protobuf.version}</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-scala -->
+      <dependency>
+          <groupId>com.fasterxml.jackson.module</groupId>
+          <artifactId>jackson-module-scala_2.11</artifactId>
+          <version>2.9.8</version>
       </dependency>
 
       <!-- https://mvnrepository.com/artifact/it.unimi.dsi/fastutil -->
@@ -279,6 +300,45 @@
           <mainClass>com.yee.MyRouteMain</mainClass>
         </configuration>
       </plugin>
+
+
+        <plugin>
+            <groupId>de.jflex</groupId>
+            <artifactId>jflex-maven-plugin</artifactId>
+            <version>1.7.0</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>generate</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+
+
+        <plugin>
+            <groupId>de.jflex</groupId>
+            <artifactId>jflex-maven-plugin</artifactId>
+            <version>1.6.0</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>generate</goal>
+                    </goals>
+                    <configuration>
+                        <outputDirectory>src/main/java</outputDirectory>
+                        <lexDefinitions>
+                            <lexDefinition>src/main/jflex</lexDefinition>
+                            <lexDefinition>src/main/lex/preprocessor.jflex</lexDefinition>
+                            <lexDefinition>/pub/postprocessor.jflex</lexDefinition>
+                        </lexDefinitions>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+
+
+
     </plugins>
   </build>
 
