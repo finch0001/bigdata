@@ -1,4 +1,4 @@
-package com.yee.common.util;
+package com.yee.bigdata.common.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.atomic.AtomicBoolean;
-import com.yee.common.thread.WorkerThread;
+import com.yee.bigdata.common.thread.WorkerThread;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

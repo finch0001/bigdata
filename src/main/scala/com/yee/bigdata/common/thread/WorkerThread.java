@@ -1,4 +1,4 @@
-package com.yee.common.thread;
+package com.yee.bigdata.common.thread;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

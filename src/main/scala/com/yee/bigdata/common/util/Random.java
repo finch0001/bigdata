@@ -1,4 +1,4 @@
-package com.yee.common.util;
+package com.yee.bigdata.common.util;
 
 import java.io.DataInputStream;
 import java.math.BigInteger;

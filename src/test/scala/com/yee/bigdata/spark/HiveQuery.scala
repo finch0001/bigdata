@@ -10,7 +10,7 @@ object HiveQuery {
     val master = s"local[$availableCores]"
     val sparkSession = SparkSession.builder.appName("CarMileage")
       .master(master)
-      .config("spark.sql.warehouse.dir", "/user/hive/warehouse/")
+      //.config("spark.sql.warehouse.dir", "/user/hive/warehouse/")
       .enableHiveSupport
       .getOrCreate
 
@@ -30,7 +30,7 @@ object HiveQuery {
     // sparkSession.sql(hql).show()
 
 
-    val df = sparkSession.read.parquet("/down/data/rabbmitmq_20190701/*")
+    val df = sparkSession.read.parquet("hdfs://namenode:8020/down/data/rabbmitmq_20190701/*")
     df.createOrReplaceTempView("test")
     sparkSession.sql("select count(*) from test").show()
 

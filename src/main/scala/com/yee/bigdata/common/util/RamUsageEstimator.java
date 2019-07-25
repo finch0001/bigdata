@@ -1,4 +1,4 @@
-package com.yee.common.util;
+package com.yee.bigdata.common.util;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
