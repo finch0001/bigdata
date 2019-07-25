@@ -3,7 +3,7 @@ package com.yee.lucene;
 import java.lang.reflect.Array;
 import java.util.Comparator;
 
-import com.yee.common.util.*;
+import com.yee.bigdata.common.util.*;
 
 /**
  * Methods for manipulating arrays.

@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9903d974-911b-41f7-bc93-5ebb18c96cfc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/LogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/PidFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/PidFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/WorkerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/WorkerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Accountable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Accountable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/ArrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Classes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Classes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/RamUsageEstimator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/RamUsageEstimator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/URLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/URLUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/yee/bigdata/spark/HiveQuery.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/yee/bigdata/spark/HiveQuery.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/lucene/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/lucene/ArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/lucene/FSDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/lucene/FSDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/lucene/IOUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/lucene/IOUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/yee/lucene/MMapDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/yee/lucene/MMapDirectory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +17,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MemoryPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/memory/MemoryPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleMemoryPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/memory/SimpleMemoryPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="98" column="34" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#SimpleMemoryPool#0" />
+                <element signature="method#tryAllocate#0;class#SimpleMemoryPool#0" />
+                <element signature="method#release#0;class#SimpleMemoryPool#0" />
+                <element signature="method#bufferToBeReturned#0;class#SimpleMemoryPool#0" />
+                <element signature="method#bufferToBeReleased#0;class#SimpleMemoryPool#0" />
+                <element signature="method#maybeRecordEndOfDrySpell#0;class#SimpleMemoryPool#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/IOUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/ArrayUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,11 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/lucene/DateTools.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/lucene/IntsRef.java" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/yee/bigdata/lucene/TestIntsRef.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/lucene/MurmurHash3.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/yee/lucene/Bits.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/lucene/FixedBits.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/lucene/RefCount.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/ServerProperty.java" />
@@ -97,6 +139,18 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Shell.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Strings.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/URLUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Time.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Timer.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/errors/ApiException.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/errors/RetriableException.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/errors/TimeoutException.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/SystemTime.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/memory/MemoryPool.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/memory/SimpleMemoryPool.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/lucene/FSDirectory.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/lucene/IOUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/lucene/MMapDirectory.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/lucene/ArrayUtil.java" />
       </list>
     </option>
   </component>
@@ -198,7 +252,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yee" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="memory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
@@ -208,8 +262,7 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yee" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -374,7 +427,7 @@
       <workItem from="1563931101249" duration="741000" />
       <workItem from="1563932238884" duration="10358000" />
       <workItem from="1564013487478" duration="2311000" />
-      <workItem from="1564025353400" duration="2720000" />
+      <workItem from="1564025353400" duration="5271000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1562804293059</created>
@@ -383,14 +436,22 @@
       <option name="project" value="LOCAL" />
       <updated>1562804293059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add new modules!">
+      <created>1564029576697</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564029576697</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43158000" />
+    <option name="totallyTimeSpent" value="45709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -406,15 +467,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21088435" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.42062193" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.42062193" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23426062" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -434,98 +495,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="add new modules!" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new modules!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/lucene/TestIntsRef.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/BitUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/ByteBufferGuard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/FixedBits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/Bits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/RefCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-762">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/common/util/ServerPropertyTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/es/plugin/analysis/jieba/AnalysisJiebaPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/huaban/analysis/jieba/WordDictionaryTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/huaban/analysis/jieba/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/huaban/analysis/jieba/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/prob_emit.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="20930" column="1" selection-start-line="20930" selection-end-line="20930" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/huaban/analysis/jieba/Hit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="860">
@@ -674,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="190" column="1" selection-start-line="190" selection-start-column="1" selection-end-line="190" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/SparkFatalException.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -802,6 +773,185 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#2273#2274#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#2497#2498#0" expanded="true" />
+            <element signature="e#2532#2533#0" expanded="true" />
+            <element signature="e#3920#3921#0" expanded="true" />
+            <element signature="e#3963#3964#0" expanded="true" />
+            <element signature="e#4401#4402#0" expanded="true" />
+            <element signature="e#4481#4482#0" expanded="true" />
+            <element signature="e#4911#4912#0" expanded="true" />
+            <element signature="e#4973#4974#0" expanded="true" />
+            <element signature="e#5514#5515#0" expanded="true" />
+            <element signature="e#5550#5551#0" expanded="true" />
+            <element signature="e#5828#5829#0" expanded="true" />
+            <element signature="e#5874#5875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#2260#2261#0" expanded="true" />
+            <element signature="e#2309#2310#0" expanded="true" />
+            <element signature="e#2462#2463#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/errors/ApiException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/errors/RetriableException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/errors/TimeoutException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/SystemTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/memory/MemoryPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="323" lean-forward="true" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/FSDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/memory/SimpleMemoryPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="98" column="34" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#SimpleMemoryPool#0" />
+            <element signature="method#tryAllocate#0;class#SimpleMemoryPool#0" />
+            <element signature="method#release#0;class#SimpleMemoryPool#0" />
+            <element signature="method#bufferToBeReturned#0;class#SimpleMemoryPool#0" />
+            <element signature="method#bufferToBeReleased#0;class#SimpleMemoryPool#0" />
+            <element signature="method#maybeRecordEndOfDrySpell#0;class#SimpleMemoryPool#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/MMapDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5100">
+          <caret line="275" column="13" selection-start-line="275" selection-start-column="13" selection-end-line="275" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/IOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/ArrayUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
