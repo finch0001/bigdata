@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9903d974-911b-41f7-bc93-5ebb18c96cfc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/test/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/test/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/yee/bigdata/spark/HiveQuery.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/yee/bigdata/spark/HiveQuery.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +18,8 @@
       <file leaf-file-name="KafkaProducer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/others/KafkaProducer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="320">
+              <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="90" />
               <folding>
                 <element signature="e#20#55#0" expanded="true" />
               </folding>
@@ -33,19 +30,43 @@
       <file leaf-file-name="StructuredStreaming.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/others/StructuredStreaming.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="360">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SparkKafkaTest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SparkKafkaTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/SparkKafkaTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="240">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="e#31#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerWriter.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/ConsumerWriter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="818">
+              <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+              <folding>
+                <element signature="e#31#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaSink.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/KafkaSink.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="37" />
+              <folding>
+                <element signature="e#31#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,8 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/huaban/analysis/jieba/Pair.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/huaban/analysis/jieba/SegToken.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/huaban/analysis/jieba/viterbi/FinalSeg.java" />
         <option value="$PROJECT_DIR$/src/main/resources/prob_emit.txt" />
         <option value="$PROJECT_DIR$/src/test/scala/com/huaban/analysis/jieba/FinalSegTest.scala" />
@@ -140,6 +159,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/others/KafkaProducer.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/SparkKafkaTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/KafkaSink.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/ConsumerWriter.scala" />
       </list>
     </option>
   </component>
@@ -164,10 +185,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="34" />
-    <option name="y" value="231" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="788" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -249,18 +270,6 @@
               <item name="yee" type="462c0819:PsiDirectoryNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yee" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
@@ -352,7 +361,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkKafkaTest">
+  <component name="RunManager" selected="Application.ConsumerWriter">
+    <configuration name="ConsumerWriter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.yee.bigdata.kafka.ConsumerWriter" />
+      <module name="bigdata" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yee.bigdata.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="CLASSPATH_FILE" />
+    </configuration>
     <configuration name="FastUtilTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.yee.bigdata.common.collection.FastUtilTest" />
       <module name="bigdata" />
@@ -364,20 +385,6 @@
         </pattern>
       </extension>
       <shortenClasspath name="CLASSPATH_FILE" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="HiveQuery" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.yee.bigdata.spark.HiveQuery" />
-      <module name="bigdata" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yee.bigdata.spark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method>
         <option name="Make" enabled="false" />
       </method>
@@ -459,19 +466,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HiveQuery" />
       <item itemvalue="Application.StructuredStreaming" />
       <item itemvalue="Application.FastUtilTest" />
       <item itemvalue="Application.SparkKafkaTest" />
       <item itemvalue="Application.KafkaProducer" />
+      <item itemvalue="Application.ConsumerWriter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerWriter" />
         <item itemvalue="Application.SparkKafkaTest" />
         <item itemvalue="Application.KafkaProducer" />
         <item itemvalue="Application.FastUtilTest" />
         <item itemvalue="Application.StructuredStreaming" />
-        <item itemvalue="Application.HiveQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +503,7 @@
       <workItem from="1563932238884" duration="10358000" />
       <workItem from="1564013487478" duration="2311000" />
       <workItem from="1564025353400" duration="22296000" />
-      <workItem from="1564099718618" duration="15223000" />
+      <workItem from="1564099718618" duration="18917000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1562804293059</created>
@@ -516,7 +523,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77957000" />
+    <option name="totallyTimeSpent" value="81651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -542,9 +549,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.492635" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20621932" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18081991" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29062957" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -573,20 +580,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../../projects/lucene/lucene-8.1/lucene-8.1.1/core/src/java/org/apache/lucene/util/MathUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="162" column="49" selection-start-line="162" selection-start-column="49" selection-end-line="162" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../projects/lucene/lucene-8.1/lucene-8.1.1/core/src/java/org/apache/lucene/util/NumericUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3440">
-          <caret line="183" column="35" lean-forward="true" selection-start-line="183" selection-start-column="35" selection-end-line="183" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/SparkFatalException.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -937,15 +930,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/others/StructuredStreaming.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="360">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/others/KafkaProducer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="320">
+          <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="90" />
           <folding>
             <element signature="e#20#55#0" expanded="true" />
           </folding>
@@ -954,10 +947,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/SparkKafkaTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        <state relative-caret-position="240">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="e#31#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/KafkaSink.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#31#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/ConsumerWriter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+          <folding>
+            <element signature="e#31#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
