@@ -2,11 +2,17 @@ package com.test
 
 import java.util.concurrent.{CountDownLatch, TimeUnit}
 
+import java.util.HashMap
 import scala.collection.JavaConverters._
 import scala.io.Source
 import com.others.ZtAlgorithmUtil
 import org.apache.spark.sql.SparkSession
 import com.yee.bigdata.common.thread._
+import com.yee.bigdata.spark._
+import com.yee.bigdata.common.util.ServerProperty
+import org.apache.spark.SparkContext
+
+import scala.collection.mutable
 
 object Main {
 
@@ -121,11 +127,54 @@ object Main {
     sparkSession
   }
 
+  def sparkContextPluginTest(): Unit ={
+    val propFilePath = "E:\\yusheng\\personal\\github\\myproject\\bigdata\\src\\main\\resources\\sparkApp.properties"
+    val props = ServerProperty.loadProps(propFilePath)
+    val propsMap = ServerProperty.propsToStringMap(props)
+    for(i <- 0 until 1){
+      //val sparkContext = SparkContextPlugin.createSparkContext(propsMap.asScala)
+      //println(sparkContext.getConf.toDebugString)
+      //sparkContext.stop()
+
+      val sqlContext = SparkContextPlugin.createSQLContext(propsMap.asScala)
+      val df = sqlContext.sql("set -v")
+      df.rdd.foreach(f => {
+        val key = f.get(0).toString
+        val value = f.get(1).toString
+        val meaning = f.get(2).toString
+        println(s"key:$key")
+        println(s"value:$value")
+        println(s"meaning:$meaning")
+        println("---------------------------------------------------------------------\n")
+      })
+
+      sqlContext.sparkContext.stop()
+      println("----------------------------------\n")
+    }
+  }
+
+  def getSparkSQLSetVTest(): Unit ={
+    val map = new HashMap[String,String]()
+    val res = SparkUtils.getSparkSQLSetV(map.asScala)
+    res.foreach(f => {
+      val key = f._1
+      val value = f._2
+      val meaning = f._3
+      println(s"key:$key")
+      println(s"value:$value")
+      println(s"meaning:$meaning")
+      println("---------------------------------------------------------------------\n")
+    })
+  }
 
   def main(args:Array[String]): Unit ={
     //dataProcess()
     //digitFormat()
     //threadUtilTest1()
-    threadUtilTest2()
+    //threadUtilTest2()
+    //sparkContextPluginTest()
+    getSparkSQLSetVTest()
+
+
   }
 }

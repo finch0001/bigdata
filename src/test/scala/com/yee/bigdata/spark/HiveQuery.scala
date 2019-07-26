@@ -11,6 +11,7 @@ object HiveQuery {
     val sparkSession = SparkSession.builder.appName("CarMileage")
       .master(master)
       //.config("spark.sql.warehouse.dir", "/user/hive/warehouse/")
+      .config("spark.debug.maxToStringFields","10000000")
       .enableHiveSupport
       .getOrCreate
 
@@ -30,9 +31,40 @@ object HiveQuery {
     // sparkSession.sql(hql).show()
 
 
-    val df = sparkSession.read.parquet("hdfs://namenode:8020/down/data/rabbmitmq_20190701/*")
-    df.createOrReplaceTempView("test")
-    sparkSession.sql("select count(*) from test").show()
+    val startTime = System.currentTimeMillis()
+    val df = sparkSession.read.parquet("hdfs://namenode:8020/down/data/rabbmitmq_20190624/*")
+    //df.printSchema()
+
+
+    val rdd = df.rdd.map(f => {
+      val vin = f.getAs("vin").toString
+      val te = f.getAs("te").toString
+      val tc = f.getAs("tc").toString
+      val md = f.getAs("md").toString
+      (vin,te,tc,md)
+    })
+
+
+    /*
+    val rdd = df.rdd.mapPartitions(f => {
+      f.map(f => {
+        val vin = f.getAs("vin").toString
+        val te = f.getAs("te").toString
+        val tc = f.getAs("tc").toString
+        val md = f.getAs("md").toString
+        (vin,te,tc,md)
+      })
+    })
+    */
+
+    println("rdd partition num: " + rdd.getNumPartitions)
+
+    rdd.saveAsTextFile("file:///E:\\out\\res4\\5")
+    val stopTime = System.currentTimeMillis()
+    println("time cost: " + (stopTime - startTime))
+
+    //df.createOrReplaceTempView("test")
+    //sparkSession.sql("select count(*) from test").show()
 
     sparkSession.stop()
   }

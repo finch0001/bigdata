@@ -137,6 +137,27 @@
           <version>2.1.1</version>
       </dependency>
 
+      <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql-kafka-0-10 -->
+      <dependency>
+          <groupId>org.apache.spark</groupId>
+          <artifactId>spark-sql-kafka-0-10_2.11</artifactId>
+          <version>2.1.0</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
+      <dependency>
+          <groupId>org.apache.kafka</groupId>
+          <artifactId>kafka-clients</artifactId>
+          <version>2.2.0</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
+      <dependency>
+          <groupId>org.apache.kafka</groupId>
+          <artifactId>kafka_2.11</artifactId>
+          <version>2.2.0</version>
+      </dependency>
+
       <!-- https://mvnrepository.com/artifact/com.stratio.receiver/spark-rabbitmq -->
       <dependency>
           <groupId>com.stratio.receiver</groupId>
