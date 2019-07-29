@@ -4,6 +4,7 @@ import java.util.{Date, Properties}
 import org.apache.kafka.clients.producer.{KafkaProducer, Producer, ProducerConfig, ProducerRecord}
 import com.yee.bigdata.common.util.Random
 
+
 object KafkaProducer {
 
     def main(args:Array[String]): Unit ={

@@ -84,7 +84,7 @@ object ConsumerWriter {
     val query = source.writeStream.foreach(writer).outputMode("append").trigger(ProcessingTime("2 seconds"))
     query.start()
 
-    // source.write.mode("append").saveAsTable("parquet_external")
+    // source.write.m;ode("append").saveAsTable("parquet_external")
   }
 
 }
