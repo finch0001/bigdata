@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9903d974-911b-41f7-bc93-5ebb18c96cfc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9903d974-911b-41f7-bc93-5ebb18c96cfc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +16,7 @@
       <file leaf-file-name="KafkaProducer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/others/KafkaProducer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state>
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#20#55#0" expanded="true" />
@@ -27,11 +25,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StructuredStreaming.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StructuredStreaming.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/others/StructuredStreaming.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="360">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LRUCache.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/cache/LRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SynchronizedCache.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/cache/SynchronizedCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding>
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/common/cache/CacheTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -39,7 +87,7 @@
       <file leaf-file-name="SparkKafkaTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/SparkKafkaTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="20">
               <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="e#31#71#0" expanded="true" />
@@ -54,6 +102,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Package Object" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -77,11 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/scala/com/huaban/analysis/jieba/FinalSegTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/huaban/analysis/jieba/JiebaSegmenter.java" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/huaban/analysis/jieba/JiebaSegmenterTest.scala" />
-        <option value="E:/work/project/中通轻客/dataview2_maven/src/main/scala/com/intest/view/CarStopOnlineTime.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/others/ZtAlgorithmUtil.scala" />
         <option value="E:/work/project/中通轻客/dataview2_maven/src/main/scala/com/intest/view/CarOnlineTimePercentage.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/SparkFatalException.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/ThreadUtils.scala" />
@@ -128,6 +172,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/others/KafkaProducer.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/DateTimeUtils.java" />
         <option value="$PROJECT_DIR$/src/test/scala/com/yee/bigdata/common/util/DateTimeUtilsTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/yee/bigdata/common/util/Errors.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/cache/Cache.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/cache/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/yee/bigdata/common/cache/CacheTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/cache/SynchronizedCache.java" />
       </list>
     </option>
   </component>
@@ -212,15 +261,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yee" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -248,6 +288,18 @@
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yee" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,27 +354,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,7 +388,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DateTimeUtilsTest">
+  <component name="RunManager" selected="Application.CacheTest">
+    <configuration name="CacheTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.yee.bigdata.common.cache.CacheTest" />
+      <module name="bigdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yee.bigdata.common.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="CLASSPATH_FILE" />
+    </configuration>
     <configuration name="ConsumerWriter" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.yee.bigdata.kafka.ConsumerWriter" />
       <module name="bigdata" />
@@ -378,21 +421,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yee.bigdata.common.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <shortenClasspath name="CLASSPATH_FILE" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="FastUtilTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.yee.bigdata.common.collection.FastUtilTest" />
-      <module name="bigdata" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yee.bigdata.common.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -473,19 +501,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FastUtilTest" />
       <item itemvalue="Application.SparkKafkaTest" />
       <item itemvalue="Application.KafkaProducer" />
       <item itemvalue="Application.ConsumerWriter" />
       <item itemvalue="Application.DateTimeUtilsTest" />
+      <item itemvalue="Application.CacheTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CacheTest" />
         <item itemvalue="Application.DateTimeUtilsTest" />
         <item itemvalue="Application.ConsumerWriter" />
         <item itemvalue="Application.SparkKafkaTest" />
         <item itemvalue="Application.KafkaProducer" />
-        <item itemvalue="Application.FastUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +541,7 @@
       <workItem from="1564099718618" duration="18917000" />
       <workItem from="1564359301945" duration="2671000" />
       <workItem from="1564451819463" duration="3562000" />
-      <workItem from="1564531819187" duration="540000" />
+      <workItem from="1564531819187" duration="2052000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1562804293059</created>
@@ -533,10 +561,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88424000" />
+    <option name="totallyTimeSpent" value="89936000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -552,18 +581,18 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21088435" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.5581015" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.12111293" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34697217" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27672035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2877013" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.5581015" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -589,41 +618,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/ThreadUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Classes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/RamUsageEstimator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/ArrayUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Shell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -758,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/test/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/thread/LogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -867,6 +854,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#31#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -901,19 +891,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/common/util/DateTimeUtilsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#37#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/others/KafkaProducer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state>
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#20#55#0" expanded="true" />
@@ -928,9 +908,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/common/util/DateTimeUtilsTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#37#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/common/util/Errors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/cache/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/others/StructuredStreaming.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/test/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+          <folding>
+            <element signature="e#18#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/common/cache/CacheTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/SparkKafkaTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="20">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="e#31#71#0" expanded="true" />
@@ -938,10 +966,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/others/StructuredStreaming.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/cache/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="120">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/cache/SynchronizedCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
