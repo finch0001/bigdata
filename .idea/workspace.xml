@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9903d974-911b-41f7-bc93-5ebb18c96cfc" name="Default" comment="" />
+    <list default="true" id="9903d974-911b-41f7-bc93-5ebb18c96cfc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +18,7 @@
       <file leaf-file-name="KafkaProducer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/others/KafkaProducer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
+            <state relative-caret-position="560">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#20#55#0" expanded="true" />
@@ -34,13 +36,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SparkKafkaTest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SparkKafkaTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/SparkKafkaTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
+            <state relative-caret-position="20">
               <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="e#31#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NioBufferedFileInputStream.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/io/NioBufferedFileInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1198">
+              <caret line="114" column="10" lean-forward="true" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Random.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Accountable.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/ArrayUtil.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Classes.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/util/Constants.java" />
@@ -127,6 +139,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/network/Receive.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/network/NetworkReceive.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/network/ByteBufferSend.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/io/NioBufferedFileInputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/io/FileSegment.scala" />
       </list>
     </option>
   </component>
@@ -150,7 +164,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="438" />
     <option name="y" value="237" />
     <option name="width" value="1382" />
@@ -164,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,7 +259,7 @@
               <item name="yee" type="462c0819:PsiDirectoryNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
@@ -312,7 +327,6 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,7 +505,8 @@
       <workItem from="1564099718618" duration="18917000" />
       <workItem from="1564359301945" duration="2671000" />
       <workItem from="1564451819463" duration="3562000" />
-      <workItem from="1564531819187" duration="3396000" />
+      <workItem from="1564531819187" duration="3473000" />
+      <workItem from="1564618955827" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1562804293059</created>
@@ -511,7 +526,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91280000" />
+    <option name="totallyTimeSpent" value="92502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -531,18 +546,18 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21088435" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.5581015" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33387887" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11292962" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17423134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1954612" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.5581015" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -568,20 +583,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/errors/TimeoutException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/FSDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/lucene/MMapDirectory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5100">
@@ -815,13 +816,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/common/util/Errors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/common/util/Errors.java" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/cache/Cache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -892,7 +887,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/others/KafkaProducer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="560">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#20#55#0" expanded="true" />
@@ -997,10 +992,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/yee/bigdata/kafka/SparkKafkaTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
+        <state relative-caret-position="20">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="e#31#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/io/FileSegment.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/yee/bigdata/common/io/NioBufferedFileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1198">
+          <caret line="114" column="10" lean-forward="true" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
