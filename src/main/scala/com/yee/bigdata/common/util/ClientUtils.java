@@ -4,14 +4,14 @@ import com.yee.bigdata.common.errors.AppLogicException;
 
 import java.io.*;
 import java.net.InetSocketAddress;
+import java.net.URL;
+import java.net.URLDecoder;
 import java.nio.ByteBuffer;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.*;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
@@ -383,6 +383,139 @@ public class ClientUtils {
         }
         if (exception != null)
             throw exception;
+    }
+
+    /**
+     * Returns the list of files at 'path' recursively. This skips files that are ignored normally
+     * by MapReduce.
+     */
+    public static List<String> listDirectory(File path) throws IOException {
+        List<String> result = new ArrayList<>();
+        if (path.isDirectory()) {
+            for (File f: path.listFiles()) {
+                result.addAll(listDirectory(f));
+            }
+        } else {
+            char c = path.getName().charAt(0);
+            if (c != '.' && c != '_') {
+                result.add(path.getAbsolutePath());
+            }
+        }
+        return result;
+    }
+
+    /** Shuffle the elements in the given array. */
+    public static <T> T[] shuffle(final T[] array) {
+        if (array != null && array.length > 0) {
+            for (int n = array.length; n > 1; ) {
+                final int randomIndex = ThreadLocalRandom.current().nextInt(n);
+                n--;
+                if (n != randomIndex) {
+                    final T tmp = array[randomIndex];
+                    array[randomIndex] = array[n];
+                    array[n] = tmp;
+                }
+            }
+        }
+        return array;
+    }
+
+    /**
+     * Find a jar that contains a class of the same name, if any.
+     * It will return a jar file, even if that is not the first thing
+     * on the class path that has a class with the same name.
+     *
+     * @param clazz the class to find.
+     * @return a jar file that contains the class, or null.
+     * @throws IOException
+     */
+    public static String findContainingJar(Class<?> clazz) {
+        ClassLoader loader = clazz.getClassLoader();
+        String classFile = clazz.getName().replaceAll("\\.", "/") + ".class";
+        try {
+            for(final Enumeration<URL> itr = loader.getResources(classFile);
+                itr.hasMoreElements();) {
+                final URL url = itr.nextElement();
+                if ("jar".equals(url.getProtocol())) {
+                    String toReturn = url.getPath();
+                    if (toReturn.startsWith("file:")) {
+                        toReturn = toReturn.substring("file:".length());
+                    }
+                    toReturn = URLDecoder.decode(toReturn, "UTF-8");
+                    return toReturn.replaceAll("!.*$", "");
+                }
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return null;
+    }
+
+    /**
+     * Cause the current thread to sleep as close as possible to the provided
+     * number of milliseconds. This method will log and ignore any
+     * {@link InterruptedException} encountered.
+     *
+     * @param millis the number of milliseconds for the current thread to sleep
+     */
+    public static void sleepAtLeastIgnoreInterrupts(long millis) {
+        long start = System.currentTimeMillis();
+        while (System.currentTimeMillis() - start < millis) {
+            long timeToSleep = millis -
+                    (System.currentTimeMillis() - start);
+            try {
+                Thread.sleep(timeToSleep);
+            } catch (InterruptedException ie) {
+                //LOG.warn("interrupted while sleeping", ie);
+            }
+        }
+    }
+
+    /**
+     * Convenience method that returns a resource as inputstream from the
+     * classpath.
+     * <p>
+     * Uses the Thread's context classloader to load resource.
+     *
+     * @param resourceName resource to retrieve.
+     *
+     * @throws IOException thrown if resource cannot be loaded
+     * @return inputstream with the resource.
+     */
+    public static InputStream getResourceAsStream(String resourceName)
+            throws IOException {
+        ClassLoader cl = Thread.currentThread().getContextClassLoader();
+        if (cl == null) {
+            throw new IOException("Can not read resource file '" + resourceName +
+                    "' because class loader of the current thread is null");
+        }
+        return getResourceAsStream(cl, resourceName);
+    }
+
+    /**
+     * Convenience method that returns a resource as inputstream from the
+     * classpath using given classloader.
+     * <p>
+     *
+     * @param cl ClassLoader to be used to retrieve resource.
+     * @param resourceName resource to retrieve.
+     *
+     * @throws IOException thrown if resource cannot be loaded
+     * @return inputstream with the resource.
+     */
+    public static InputStream getResourceAsStream(ClassLoader cl,
+                                                  String resourceName)
+            throws IOException {
+        if (cl == null) {
+            throw new IOException("Can not read resource file '" + resourceName +
+                    "' because given class loader is null");
+        }
+        InputStream is = cl.getResourceAsStream(resourceName);
+        if (is == null) {
+            throw new IOException("Can not read resource file '" +
+                    resourceName + "'");
+        }
+        return is;
     }
 
 }

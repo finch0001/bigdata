@@ -114,7 +114,6 @@ object Main {
     }
   }
 
-
   def createSparkSession(): SparkSession ={
     val availableCores = Runtime.getRuntime.availableProcessors()
     val master = s"local[$availableCores]"
@@ -173,7 +172,7 @@ object Main {
     //threadUtilTest1()
     //threadUtilTest2()
     //sparkContextPluginTest()
-    getSparkSQLSetVTest()
+    //getSparkSQLSetVTest()
 
 
   }
