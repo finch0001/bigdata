@@ -14,6 +14,7 @@ import java.util.regex.Pattern;
 
 import com.google.common.annotations.VisibleForTesting;
 
+import org.apache.hadoop.util.Shell;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -134,7 +135,7 @@ public class SysInfoLinux extends SysInfo {
     private static long getConf(String attr) {
         if("Shell.LINUX".equals("a")) {
             try {
-                ShellCommandExecutor shellExecutorClk = new ShellCommandExecutor(
+                Shell.ShellCommandExecutor shellExecutorClk = new Shell.ShellCommandExecutor(
                         new String[] {"getconf", attr });
                 shellExecutorClk.execute();
                 return Long.parseLong(shellExecutorClk.getOutput().replace("\n", ""));
