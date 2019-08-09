@@ -452,8 +452,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CacheTest" />
       <item itemvalue="Application.ClientUtilsTest" />
+      <item itemvalue="Application.CacheTest" />
       <item itemvalue="Application.ConsumerWriter" />
       <item itemvalue="Application.DateTimeUtilsTest" />
       <item itemvalue="Application.KafkaProducer" />
