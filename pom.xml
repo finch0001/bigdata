@@ -24,7 +24,7 @@
     <log4j.scala.version>11.0</log4j.scala.version>
     <slf4j.version>1.7.25</slf4j.version>
     <fasjson.version>1.2.47</fasjson.version>
-    <protobuf.version>3.0.0</protobuf.version>
+    <protobuf.version>3.16.1</protobuf.version>
     <os.detected.classifier>windows</os.detected.classifier>
   </properties>
 
